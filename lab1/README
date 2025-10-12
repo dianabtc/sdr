@@ -1,0 +1,33 @@
+Butacu Laura Diana
+Laborator 1 - SDR
+
+Datasetul ales contine melodii de pe Spotify in format CSV si caracteristici audio 
+despre acestea, acoperind peste 125 de genuri muzicale diferite.
+Sursa Kaggle: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
+
+Din acest dataset am pastrat 1000 de intrari random salvate in spotify_dataset.csv 
+si am eliminat coloana "Unnamed: 0".
+
+Proprietati inregistrate:
+- "artists" - numele artistului/artistilor principali
+- "album_name" - numele albumului
+- "track_name" - numele melodiei
+- "popularity" - scor determinat de numarul de ascultari si cat de recente sunt (0 - 100)
+- "duration_ms" - durata melodiei in ms
+- "explicit" - daca contine versuri explicite (true/false)
+- "danceability" - masura a dansabilitatii (0.0 - 1.0)
+- "energy" - nivel de intensitate (0.0 - 1.0)
+- "key" - tonalitate conform notatiei Pitch Class; daca nu este detectata, valoarea este -1
+- "loudness" - nivel mediu de volum al piesei (dB)
+- "mode" - 1 pentru major, 0 pentru minor
+- "speechiness" - proportia de elemene vorbite (0.0 - 1.0)
+- "acousticness" - masura a cat de acustica este melodia (0.0 - 1.0)
+- "instrumentalness" - prezice daca o melodie contine sau nu voce (0.0 - 1.0)
+- "liveness" - detecteaza prezenta unei audiente in inregistrare;
+valori mai mari => probabilitate ca piesa sa fi fost inregistrata live (0.0 - 1.0)
+- "valence" - descrie cat de pozitiva este emotia transmisa (0.0 - 1.0)
+- "tempo" - tempo general masurat in BPM
+- "time_signature" - numarul de batai intr-o masura (3 - 7, corespunde masurilor
+de la 3/4 la 7/4)
+- "track_genre" - genul principal muzical din care face parte melodia
+
