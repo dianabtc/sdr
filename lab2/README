@@ -1,0 +1,15 @@
+Butacu Laura Diana
+Lab 2
+
+Am generat un set de date pentru useri, cu urmatoarele proprietati:
+- user_id 
+- first_name, last_name, email
+- age - poate influenta preferinte de genuri (utilizatorii tineri pot 
+prefera genuri mai de actualitate)
+- gender
+- country - personalizarea recomandarilor in functie de regiune
+- favorite_genres - recomandarea unor melodii din genuri similare
+- premium - daca utilizatorul este abonat la Spotify
+- avg_listening_time - timpul mediu de ascultare, reflecta implicarea utilizatorului
+- mood_preference - tipul de stare predominanta a utilizatorului,
+pentru recomandarea unor melodii ce se potrivesc
